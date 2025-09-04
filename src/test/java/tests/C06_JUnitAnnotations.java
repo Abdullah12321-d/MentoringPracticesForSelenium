@@ -2,7 +2,7 @@ package tests;
 
 import org.junit.jupiter.api.*;
 
-public class C06_JUnit {
+public class C06_JUnitAnnotations {
     @BeforeAll
     static void beforeall(){
         System.out.println("beforeAll");

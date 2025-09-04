@@ -3,7 +3,7 @@ package tasks;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class tasks2 {
+public class t1 {
     public static void main(String[] args) throws InterruptedException {
 //        Task1:
 

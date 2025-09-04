@@ -2,8 +2,10 @@ package tests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
-public class C07aSSERTIONS {
+public class C07_ASSERTIONS {
 
     @Test
     void assertEqualsTest() {
@@ -36,10 +38,15 @@ public class C07aSSERTIONS {
 
     }
 
-
+    String  name;
     @Test
-    void assertNulltest(){
-      String  name = "a";
-        assertNull(name,"name is not Null");
+    void assertNullTest(){
+
+        assertNull(name, "Name should be null");
     }
+
+
+
+
+
 }

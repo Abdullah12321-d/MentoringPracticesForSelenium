@@ -1,11 +1,16 @@
 package tests;
 
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WindowType;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import java.time.Duration;
 
-public class C01_BasicNavigations {
+import static tests.C08_C08_ContactList.driver;
+
+
+//public class C01_BasicNavigations {
 
 // Invoke Chrome Browser
 // Navigate to URL: https://www.w3schools.com/
@@ -36,8 +41,8 @@ public class C01_BasicNavigations {
 
 
 
-    public static void main(String[] args) throws InterruptedException {
-        WebDriver driver = new ChromeDriver();
+//    public static void main(String[] args) throws InterruptedException {
+//        WebDriver driver = new ChromeDriver();
 
 
 
@@ -46,73 +51,36 @@ public class C01_BasicNavigations {
 
 
 
+    public class C01_BasicNavigations {
+        public static void main(String[] args) throws InterruptedException {
+            WebDriver driver = new ChromeDriver();
+            Thread.sleep(3000);
+        driver.get("https://www.google.com/");
+        driver.manage().window().maximize();
+            // Print the position and size of the page.
+          System.out.println(driver.manage().window().getPosition());
+          System.out.println(driver.manage().window().getSize());
+            // Minimize the page.
+        driver.manage().window().minimize();
+            // Wait 7 seconds in the icon state and maximize the page.
+          Thread.sleep(7000);
+        driver.manage().window().maximize();
+            // Print the position and dimensions of the page in maximized state.
+          System.out.println(driver.manage().window().getPosition());
+          System.out.println(driver.manage().window().getSize());
+        // Make the page fullscreen.
+        driver.manage().window().fullscreen();
+        // Close the Browser.
+        Thread.sleep(3000);
+        driver.quit();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        driver.get("https://www.google.com/");
-//        System.out.println(driver.manage().window().getPosition());
-//        System.out.println(driver.manage().window().getSize());
-//        Thread.sleep(3000);
-//        driver.manage().window().maximize();
-//        Thread.sleep(3000);
-//        System.out.println(driver.manage().window().getPosition());
-//        Thread.sleep(3000);
-//        System.out.println(driver.manage().window().getSize());
-//
-//
-//        // Print the position and size of the page.
-//        // Minimize the page.
-//        // Wait 7 seconds in the icon state and maximize the page.
-//        // Print the position and dimensions of the page in maximized state.
-//        // Make the page fullscreen.
-//        Thread.sleep(3000);
-//        driver.manage().window().fullscreen();
-//
-//        // Close the Browser.
-//        Thread.sleep(3000);
-//        driver.quit();
-
-
-
-
-
-
-
+        }
 
     }
+
+
+
 
 
 
@@ -219,5 +187,5 @@ public class C01_BasicNavigations {
 //        Thread.sleep(3000);
 //        driver.quit();
 
-    }
+
 

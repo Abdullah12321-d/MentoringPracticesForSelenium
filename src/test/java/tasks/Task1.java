@@ -1,10 +1,9 @@
 package tasks;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) throws InterruptedException{
 
         WebDriver driver = new FirefoxDriver();
@@ -62,33 +61,3 @@ public class task1 {
 
 
 }
-
-
-
-
-
-// TC – 03
-// Expected Title
-// Set Path of the Chrome driver
-// Launch Chrome browser
-// Open URL of Website
-// Maximize Window
-// Get Title of current Page
-// Validate/Compare Page Title
-// Close Browser
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
