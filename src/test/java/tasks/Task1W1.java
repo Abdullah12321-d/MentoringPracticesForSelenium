@@ -3,7 +3,7 @@ package tasks;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Task1 {
+public class Task1W1 {
     public static void main(String[] args) throws InterruptedException{
 
         WebDriver driver = new FirefoxDriver();

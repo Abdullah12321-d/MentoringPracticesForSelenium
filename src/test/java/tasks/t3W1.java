@@ -1,6 +1,6 @@
 package tasks;
 
-public class t3 {
+public class t3W1 {
     public static void main(String[] args) {
         //Task3:
 //Go to the Amazon URL : https://www.amazon.com/

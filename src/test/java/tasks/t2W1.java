@@ -3,7 +3,7 @@ package tasks;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class t2 {
+public class t2W1 {
     public static void main(String[] args) throws InterruptedException  {
         WebDriver driver = new ChromeDriver();
 

@@ -1,7 +1,6 @@
 package tasks;
 
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Dimension;
@@ -9,7 +8,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class task3Wed {
+public class task3W1Wed {
 
 //    Task 3: Browser Size and Position
 //    Setup:

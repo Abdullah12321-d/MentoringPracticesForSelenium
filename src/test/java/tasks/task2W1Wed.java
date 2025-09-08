@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class task2Wed {
+public class task2W1Wed {
 
 //    Task 2: Page Source Validation
 //    Setup:
