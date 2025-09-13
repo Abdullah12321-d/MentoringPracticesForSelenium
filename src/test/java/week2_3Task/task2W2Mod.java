@@ -1,4 +1,4 @@
-package tasks;
+package week2_3Task;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

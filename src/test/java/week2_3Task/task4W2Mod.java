@@ -1,4 +1,4 @@
-package tasks;
+package week2_3Task;
 import java.time.Duration;
 import java.util.List;
 import com.github.javafaker.Faker;
